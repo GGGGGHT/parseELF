@@ -3,4 +3,4 @@ project(parseELF C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(parseELF main.c)
+add_executable(parseELF  src/headers/linker.h src/paeseElf.c)
